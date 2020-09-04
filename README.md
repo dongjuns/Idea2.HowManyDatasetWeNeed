@@ -1,5 +1,6 @@
-# Idea2.HowManyDatasetWeNeed
+# Project2.HowManyDatasetWeNeed
 
+HowManyDatasetWeNeed
 Dataset: MNIST fashion dataset    
 (60000, 28, 28), labels: (10, 60000) 0~9, 6000 images each class    
 
