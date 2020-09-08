@@ -1,10 +1,11 @@
 # Project2.HowManyDatasetWeNeed
 
-HowManyDatasetWeNeed
 Dataset: MNIST fashion dataset    
-(60000, 28, 28), labels: (10, 60000) 0~9, 6000 images each class    
+dataset shape: (60000, 28, 28)    
+dataset labels: (10, 60000),    
+label 0:9, 6000 images by label    
 
-Hypothesis: there is an optimal number for training the model    
+Hypothesis: there is an optimal number of dataset for the model    
 +@: checking the result of accuracy and loss,    
 it would be gaussian distribution.    
 so, we could estimate that best performance.    
@@ -36,3 +37,8 @@ experiment4. 100 images for each class
 70:30
 80:20
 90:10
+
+
+|1 | 2| 3| 4|
+| 1|2 | 3| 4|
+|1 |1 | 3| 4|
